@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rhino Mode: Blender extension repository</title>
+<style>
+  :root { color-scheme: light dark; --text: #1c1e21; --soft: #5b6470; --back: #f6f7f9; --card: #ffffff; --line: #d9dde3; --mark: #b85c00; }
+  @media (prefers-color-scheme: dark) { :root { --text: #e8eaed; --soft: #a3abb6; --back: #16181c; --card: #1f2227; --line: #343a43; --mark: #ffa24a; } }
+  body { margin: 0; padding: 32px 16px 56px; background: var(--back); color: var(--text); font: 16px/1.6 system-ui, "Segoe UI", "Microsoft YaHei", sans-serif; }
+  main { max-width: 720px; margin: 0 auto; }
+  h1 { font-size: 30px; margin: 0 0 4px; }
+  h2 { font-size: 19px; margin: 34px 0 8px; }
+  p { margin: 8px 0; }
+  .soft { color: var(--soft); }
+  ol { padding-left: 22px; margin: 8px 0; }
+  li { margin: 4px 0; }
+  code, .url { font: 14px/1.5 ui-monospace, Consolas, monospace; }
+  .url { display: block; padding: 12px 14px; margin: 10px 0; background: var(--card); border: 1px solid var(--line); border-radius: 8px; overflow-wrap: anywhere; user-select: all; }
+  table { border-collapse: collapse; width: 100%; margin: 10px 0; background: var(--card); border: 1px solid var(--line); border-radius: 8px; }
+  th, td { text-align: left; padding: 8px 12px; border-bottom: 1px solid var(--line); font-size: 15px; }
+  tr:last-child td { border-bottom: 0; }
+  a { color: var(--mark); }
+  footer { margin-top: 40px; font-size: 13px; }
+</style>
+</head>
+<body>
+<main>
+<h1>Rhino Mode</h1>
+<p class="soft">Unofficial Rhino-style workflow for Blender, switchable on and off. This page is the project's own extension repository: add it to Blender once, then install and update Rhino Mode from inside Blender.</p>
+
+<h2>Add it in Blender</h2>
+<ol>
+  <li><b>Edit &gt; Preferences &gt; Get Extensions</b>: open <b>Repositories</b> at the top right, press <b>+</b>, choose <b>Add Remote Repository</b>.</li>
+  <li>Paste this URL, tick <b>Check for Updates on Startup</b>, press <b>Create</b>:</li>
+</ol>
+<span class="url">https://ren18161849172-byte.github.io/rhino-mode/index.json</span>
+<ol start="3">
+  <li>Search for <b>Rhino Mode</b> in Get Extensions and press <b>Install</b>.</li>
+</ol>
+<p class="soft">Blender has to be allowed online: Preferences &gt; System &gt; Network &gt; Allow Online Access. Blender 4.2 LTS or newer.</p>
+
+<h2 lang="zh-CN">在 Blender 里添加</h2>
+<ol lang="zh-CN">
+  <li><b>编辑 &gt; 偏好设置 &gt; 获取扩展</b>：点右上角的 <b>存储库</b>，按 <b>+</b>，选 <b>添加远程存储库</b>。</li>
+  <li>粘贴上面的地址，勾选 <b>启动时检查更新</b>，点 <b>创建</b>。</li>
+  <li>在“获取扩展”里搜 <b>Rhino Mode</b>，点 <b>安装</b>。以后有新版本也在这里更新。</li>
+</ol>
+<p class="soft" lang="zh-CN">需要先允许 Blender 联网：偏好设置 &gt; 系统 &gt; 网络 &gt; 允许联机访问。需要 Blender 4.2 LTS 或更新的版本。</p>
+
+<h2>Packages</h2>
+<table>
+  <tr><th>Extension</th><th>Version</th><th>Blender</th><th>Size</th></tr>
+  <!-- packages -->
+  <tr>
+    <td><a href="./r2b-0.1.0.zip?repository=https%3A%2F%2Fren18161849172-byte.github.io%2Frhino-mode%2Findex.json&amp;blender_version_min=4.2.0">Rhino Mode</a></td>
+    <td>0.1.0</td><td>4.2.0 and newer</td><td>299 KB</td>
+  </tr>
+  <!-- /packages -->
+</table>
+<p class="soft">The link can be dragged into a Blender window to install. Source, issues and pull requests: <a href="https://github.com/ren18161849172-byte/rhino-mode">github.com/ren18161849172-byte/rhino-mode</a> (GPL-3.0-or-later).</p>
+
+<footer class="soft">Rhinoceros and Rhino are registered trademarks of Robert McNeel &amp; Associates. This is an independent project: it is not affiliated with, sponsored by or endorsed by Robert McNeel &amp; Associates or the Blender Foundation.</footer>
+</main>
+</body>
+</html>
