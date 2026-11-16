@@ -14,9 +14,25 @@ Rhino Mode 是一个 Blender 扩展，给习惯用 Rhino 建模的人用：输�
 
 ## 安装
 
+**在 Blender 里直接安装**（以后的更新也在这里）：
+
+1. **编辑 > 偏好设置 > 获取扩展**：点右上角的 **存储库**，按 **+**，选 **添加远程存储库**。
+2. 粘贴下面的地址，勾选 **启动时检查更新**，点 **创建**：
+
+   ```
+   https://ren18161849172-byte.github.io/rhino-mode/index.json
+   ```
+
+3. 在“获取扩展”里搜 **Rhino Mode**，点 **安装**。
+
+需要先允许 Blender 联网（**偏好设置 > 系统 > 网络 > 允许联机访问**）。这个地址是本项目自己的扩展库，不是 extensions.blender.org。
+
+**用 zip 安装：**
+
 1. 在 [Releases](../../releases) 页面下载 `r2b-<版本>.zip`。
 2. 在 Blender 里：**编辑 > 偏好设置 > 获取扩展**，点右上角的菜单，选 **从磁盘安装...**（Install from Disk），选中这个 zip。
-3. 用顶栏的 **Rhino** 按钮、**编辑 > Toggle Rhino Mode** 或 **Ctrl+Shift+Alt+R** 打开模式，再按一次关闭。
+
+装好后，用顶栏的 **Rhino** 按钮、**编辑 > Toggle Rhino Mode** 或 **Ctrl+Shift+Alt+R** 打开模式，再按一次关闭。
 
 从源码打包：
 

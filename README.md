@@ -14,9 +14,25 @@ Rhino Mode is a Blender extension for people who model in Rhino and want to work
 
 ## Install
 
+**From inside Blender** (updates arrive there too):
+
+1. **Edit > Preferences > Get Extensions**: open **Repositories** at the top right, press **+** and choose **Add Remote Repository**.
+2. Paste this URL, tick **Check for Updates on Startup**, and press **Create**:
+
+   ```
+   https://ren18161849172-byte.github.io/rhino-mode/index.json
+   ```
+
+3. Search for **Rhino Mode** in Get Extensions and press **Install**.
+
+Blender has to be allowed online for this (**Preferences > System > Network > Allow Online Access**). The URL is this project's own extension repository, not extensions.blender.org.
+
+**From a zip:**
+
 1. Download `r2b-<version>.zip` from the [Releases](../../releases) page.
 2. In Blender: **Edit > Preferences > Get Extensions**, open the menu at the top right and choose **Install from Disk...**, then pick the zip.
-3. Turn the mode on with the **Rhino** button in the top bar, with **Edit > Toggle Rhino Mode**, or with **Ctrl+Shift+Alt+R**. The same switch turns it off.
+
+Either way, turn the mode on with the **Rhino** button in the top bar, with **Edit > Toggle Rhino Mode**, or with **Ctrl+Shift+Alt+R**. The same switch turns it off.
 
 To build the zip from source:
 
