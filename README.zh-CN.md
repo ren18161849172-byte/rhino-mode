@@ -4,6 +4,8 @@
 
 [English](README.md)
 
+![Blender 里的 Rhino Mode：命令行下面是四个视口，右边是图层，选中的曲线上显示 Gumball](images/workspace.png)
+
 Rhino Mode 是一个 Blender 扩展，给习惯用 Rhino 建模的人用：输入命令、用物件锁点取点、看提示、按回车，在 Blender 里照原来的习惯工作。关掉这个模式，Blender 和原来完全一样：扩展不会改动你的偏好设置、主题和键位。
 
 > Rhinoceros、Rhino 是 Robert McNeel & Associates 的注册商标。这是一个独立项目，与 Robert McNeel & Associates 及 Blender 基金会没有关联，也未获得其赞助或认可。
@@ -40,11 +42,15 @@ blender --command extension build --source-dir src/r2b --output-dir dist
 - Rhino 和 Blender 两套名字：`Extrude`、`Inset`、`LoopCut`、`Knife`、`ShadeSmooth` 运行 Blender 的工具，任何 Blender 算子都可以按它的标签名输入。两边同名但意思不同的（`Scale`、`Split`、`Array`……），不加前缀是 Rhino 的意思，`b:Scale` 是 Blender 的（偏好设置里可以反过来）。
 - 别名，可一键加入 Rhino 的默认别名或 Blender 的单键别名。
 
+![在命令行输入 extr：Rhino 的 ExtrudeCrv 等命令，以及蓝色的 Blender 命令 Extrude](images/names.png)
+
 **取点**
 
 - Osnap（端点、最近点、点、中点、中心点、交点、垂直点、切点、四分点）、锁定格点（F9）、正交（F8）、平面模式和智慧轨迹，状态栏有开关。按住 Alt 暂时不锁点；输入 `end`、`mid` 等只对下一个点生效。
 - 每个视口有自己的 CPlane：原点、3Point、Elevation、Object、Rotate、View、World、Undo。
 - Gumball：选中的东西上显示移动、旋转、缩放手柄，可对齐 CPlane、物体或世界。拖动时可以锁点，也可以单击手柄后输入数值。Ctrl+拖动箭头是挤出。
+
+![Polyline 正在取下一个点：带选项的提示、状态栏上的选项按钮，以及四个视口里都显示的端点锁点](images/command.png)
 
 **选择**
 

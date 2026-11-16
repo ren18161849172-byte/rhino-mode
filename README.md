@@ -4,6 +4,8 @@
 
 [中文说明](README.zh-CN.md)
 
+![Rhino Mode in Blender: four viewports under the command line, the layers on the right, the Gumball on the selected curve](images/workspace.png)
+
 Rhino Mode is a Blender extension for people who model in Rhino and want to work in Blender with the habits they already have: type a command, pick points with object snaps, read the prompt, press Enter. Turn the mode off and Blender is exactly as it was: the extension does not write to your preferences, theme or keymap.
 
 > Rhinoceros and Rhino are registered trademarks of Robert McNeel & Associates. This is an independent project: it is not affiliated with, sponsored by or endorsed by Robert McNeel & Associates or the Blender Foundation.
@@ -40,11 +42,15 @@ Blender 4.2 LTS or newer is required.
 - Rhino names and Blender names: `Extrude`, `Inset`, `LoopCut`, `Knife`, `ShadeSmooth` run Blender's tools, and any Blender operator can be typed by its label. Where the two programs use one name for different things (`Scale`, `Split`, `Array`...), the bare word is Rhino's and `b:Scale` is Blender's (a preference turns this round).
 - Aliases, with presets for Rhino's defaults and for Blender's single keys.
 
+![Typing "extr" in the command line: Rhino's ExtrudeCrv and its relatives, and Blender's Extrude in blue](images/names.png)
+
 **Picking points**
 
 - Osnap (End, Near, Point, Mid, Cen, Int, Perp, Tan, Quad), Grid Snap (F9), Ortho (F8), Planar and SmartTrack, with toggles in the status bar. Alt picks without snapping; typing `end`, `mid`... snaps the next point only.
 - CPlane per viewport: origin, 3Point, Elevation, Object, Rotate, View, World, Undo.
 - Gumball: move, rotate and scale handles on the selection, aligned to the CPlane, the object or the world. Drag with Osnap, or click a handle and type a value. Ctrl+drag an arrow to extrude.
+
+![Polyline picking its next point: the prompt with its options, the options as buttons in the status bar, and an End snap shown in all four viewports](images/command.png)
 
 **Selecting**
 
