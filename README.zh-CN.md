@@ -27,6 +27,13 @@ Rhino Mode 是一个 Blender 扩展，给习惯用 Rhino 建模的人用：输�
 
 需要先允许 Blender 联网（**偏好设置 > 系统 > 网络 > 允许联机访问**）。这个地址是本项目自己的扩展库，不是 extensions.blender.org。
 
+如果 `github.io` 打不开或很慢，可以改填下面的镜像地址，任选一个（内容相同，由 jsDelivr 提供；新版本发布后可能要过几个小时才同步）：
+
+```
+https://fastly.jsdelivr.net/gh/ren18161849172-byte/rhino-mode@gh-pages/index.json
+https://gcore.jsdelivr.net/gh/ren18161849172-byte/rhino-mode@gh-pages/index.json
+```
+
 **用 zip 安装：**
 
 1. 在 [Releases](../../releases) 页面下载 `r2b-<版本>.zip`。

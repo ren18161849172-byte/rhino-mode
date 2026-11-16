@@ -27,6 +27,13 @@ Rhino Mode is a Blender extension for people who model in Rhino and want to work
 
 Blender has to be allowed online for this (**Preferences > System > Network > Allow Online Access**). The URL is this project's own extension repository, not extensions.blender.org.
 
+If `github.io` is slow or cannot be reached on your network, use one of these mirrors of the same repository instead (served by jsDelivr; after a release they can take some hours to catch up):
+
+```
+https://fastly.jsdelivr.net/gh/ren18161849172-byte/rhino-mode@gh-pages/index.json
+https://gcore.jsdelivr.net/gh/ren18161849172-byte/rhino-mode@gh-pages/index.json
+```
+
 **From a zip:**
 
 1. Download `r2b-<version>.zip` from the [Releases](../../releases) page.
